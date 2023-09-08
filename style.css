@@ -7,9 +7,11 @@ header {
     background-color: white;
     display: flex;
     justify-content: space-around;
-    
+    margin:auto;
     padding-bottom: 5px;
     padding-top: 5px;
+    position:sticky; top: 0;
+    border-bottom: 2px solid #3882F6;
     
     
     
@@ -34,6 +36,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin: auto;
     
 }
 a {
@@ -49,9 +52,8 @@ a:hover {
 .racket {
     width: 600px;
     height: 300px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
-    
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 h1 {
     font-size: 48px;
@@ -87,4 +89,140 @@ h3 {
 
 .sign a:hover {
     color:orange;
+}
+.okvir {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+h2 {
+    display: flex;
+    height: 100px;
+    width:350px;
+    margin:auto;
+    margin-top: 50px;
+}
+.slike {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.caption {
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 10px;
+   
+    
+}
+.caption:last-of-type {
+    gap:50px 55px;
+}
+
+figcaption {
+    max-width :150px;
+
+}
+#second {
+    margin-bottom: 100px;
+}
+.third {
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+quote {
+    font-size: 36px;
+    width: 600px;
+    margin: auto;
+    font-style:italic;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+span {
+    font-weight: 600;
+}
+.tretja {
+    height:500px;
+    background-color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column wrap;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.fourth {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.plav {
+    background-color: #3882F6;
+    padding: 50px 60px;
+    border-radius: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0px 80px;
+    align-items: center;
+    
+}
+.call {
+    font-weight: 700;
+    font-size: 20px;
+}
+.moder {
+    background-color: #3882F6 ;
+    border: 2px solid white;
+    border-radius:0px 10px;
+    padding: 0px 40px;
+    color: white;
+    height: 40px;
+    
+    
+}
+.normal {
+    font-weight: 300;
+    font-size: 16px;
+}
+.moder a {
+    color:white;
+    font-weight: 600
+    ;
+}
+.moder a:hover{
+    color: orange;
+    
+}
+.moder:hover {
+    border: 2px solid orange;
+    color: orange;
+}
+.moder:hover a {
+    color:orange;
+}
+footer {
+    background-color: #1F2937;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
